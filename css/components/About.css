@@ -1,0 +1,34 @@
+.about {
+    display: grid;
+    background-color: var(--gray-col);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about__main {
+    position: relative;
+    margin: 53px 53px 0px 53px;
+}
+
+.about__main--list {
+    hr {
+        margin-block: 40px;
+    }
+}
+
+.about__main--el {
+    display: flex;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.about__main--el::before {
+    content: url(../../img/icons/flwr.svg);
+    margin-right: 20px;
+}
+
+.about__main--button {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top: 80px;
+}

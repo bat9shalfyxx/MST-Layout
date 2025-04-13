@@ -1,0 +1,48 @@
+@import url(./reset.css);
+@import url(./media.css);
+@import url(./components/Header.css);
+@import url(./components/About.css);
+@import url(./components/OrderSection.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Prata&family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+    --dark-col: #222;
+    --gray-col: #282829;
+    --light-col: #fff;
+    --dull-orange-col: #d5c9be;
+    --dark-green-col: #38535d;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: var(--light-col);
+}
+
+.container {
+    text-align: center;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    font-family: "Prata", "Montserrat", sans-serif;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: "Prata", "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: "Prata", "Montserrat", sans-serif;
+    line-height: 1.1;
+    font-size: 54px;
+    color: var(--dark-green-col);
+}

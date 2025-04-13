@@ -1,0 +1,74 @@
+.main {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: var(--dark-col);
+    text-align-last: left;
+}
+
+.main-text-content {
+    padding-left: 160px;
+    padding-top: 30px;
+    flex: 1;
+}
+
+.main__nav {
+    flex-wrap: wrap;
+    max-width: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__nav--list {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main--img {
+    margin-left: 30px;
+    max-width: 40%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    margin-top: 240px;
+    text-align-last: left;
+}
+
+.main__info--list {
+    display: flex;
+    flex-direction: column;
+    margin-block: 66px 40px;
+    row-gap: 35px;
+}
+
+.main__info--el {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 4px;
+    white-space: pre;
+    background-color: var(--gray-col);
+
+    span {
+        font-family: "Prata", "Montserrat", sans-serif;
+        font-size: 30px;
+    }
+}
+.main__info--el::before {
+    content: url(../../img/icons/check-mark.svg);
+    margin-right: 17px;
+}
+.main__button {
+}
+.button {
+}
